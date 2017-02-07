@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <FrameLayout
+        android:id="@+id/contentActivity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F0F0F0"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true" >
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/phoneTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F0F0"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/callrecords"
+            style="@style/phoneStyle"
+            android:drawableTop="@drawable/phone_memory"
+            android:text="@string/records" />
+
+        <RadioButton
+            android:id="@+id/phonecontacts"
+            style="@style/phoneStyle"
+            android:drawableTop="@drawable/phone_contacts"
+            android:text="@string/contacts" />
+
+        <RadioButton
+            android:id="@+id/dialpad"
+            style="@style/phoneStyle"
+            android:drawableTop="@drawable/phone_dialpad"
+            android:text="@string/dialpad" />
+    </RadioGroup>
+
+</LinearLayout>

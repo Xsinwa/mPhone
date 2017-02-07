@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电话</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="addnewContacts">新建联系人</string>
+    <string name="addExisted">添加到已有联系人</string>
+    <string name="addtoContacts">添加到联系人</string>
+    <string name="phoneSetting">设置</string>
+    <string name="phoneGroup">群组</string>
+    <string name="birthday">生日</string>
+    <string name="address">地址</string>
+    <string name="addother">添加其他项目</string>
+    <string name="addBirthday">添加生日</string>
+    <string name="searchContact">搜索</string>
+    <string name="sharecontact">共享联系人</string>
+    <string name="addToGroup">添加到群组</string>
+    <string name="PhoneNmbers">电话号码</string>
+    <string name="allcall">所有通话</string>
+    <string name="calldismiss">未接电话</string>
+    <string name="edit">编辑</string>
+    <string name="contacts">联系人</string>
+    <string name="records">通话记录</string>
+    <string name="dialpad">拨号盘</string>
+    <string name="Delete">删除</string>
+    <string name="DeleteAll">清除</string>
+    <string name="ClearAll">清除最近所有通话</string>
+    <string name="finish">完成</string>
+    <string name="sendMessage">发送短信</string>
+    <string name="cancel">取消</string>
+    <string name="addToBlack">加入黑名单</string>
+    <string name="Message">短信</string>
+    <string name="video">视频</string>
+    <string name="Email">邮件</string>
+    
+    <string-array name="phoneNum">
+        <item >手机</item>
+        <item >公司</item>
+        <item >住宅</item>
+        <item >传真</item>
+        <item >其他</item>
+        <item >自定义</item>
+    </string-array>
+    
+    <string-array 
+        name="Email">
+        <item >公司</item>
+        <item >个人</item>
+        <item >其他</item>
+        <item >自定义</item>
+    </string-array>
+
+</resources>
